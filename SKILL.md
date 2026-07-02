@@ -39,7 +39,7 @@ The fully worked catalogue with real before/after fixes is in `reference/taxonom
 
 Four trained-in pressures produce it; receipts in `reference/grounding.md`.
 
-- **Length and validation are reward-hacked in** — models pad, signpost, restate, flatter and over-validate because preference training rewards it.
+- **Length and validation are rewarded directly** — models pad, signpost, restate, flatter and over-validate because preference training rewards it.
 - **Over-caution bolts on disclaimers** a real instance would never carry.
 - **Ambiguity is under-resolved** — the model recognises an underspecified ask but emits a best guess that bakes in assumptions. (The XY problem: the user names a solution X; the real goal sits behind it.)
 - **The default assistant persona leaks** — its register ("here's what I'll do", self-identification, the chat-reply shape) bleeds into the deliverable. The deepest cause of "reads like a model answering a brief": inhabit the artifact's real author instead.

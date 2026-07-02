@@ -87,7 +87,7 @@ Acting out a virtue instead of demonstrating it through precision.
 
 | Metatext | Fix |
 |---|---|
-| "What I will not do is overclaim on the biology." | DELETE — show it by stating precise limits. |
+| "What I will not do is overclaim on the results." | DELETE — show it by stating precise limits. |
 | "I would not be honest if I said otherwise." → "No." | "No." |
 | "I want to be straightforward about the boundaries of this protocol." | DELETE; state the boundaries. |
 | "What I can say plainly is what the device does and what the data report." | "The evidence supports clear statements about what the device does and what the data report." |
