@@ -1,8 +1,8 @@
 # Metatext taxonomy — patterns, real examples, fixes
 
-The catalogue. Each category: what it is, real examples (mostly from audited client documents), and the fix. "DELETE" means the sentence does no work for the real reader; cut it whole. Examples are drawn from a patient guide, a pitch, contracts, and a consulting report.
+The catalogue. Each category: what it is, real examples (mostly from audited client documents), and the fix. "DELETE" means the sentence does no work for the real reader; cut it whole. Examples are drawn from a patient guide, a pitch, contracts, a consulting report, and a research product's screens, emails and assistant text.
 
-The single tell behind all of them: **the artifact reveals that it was produced by someone answering a brief.** A real instance, made by an expert for the reader, does not.
+The single tell behind all of them: **the artifact reveals how it was made**, whether by someone answering a brief or by a system describing its own workings. A real instance, made by an expert for the reader, shows only the thing.
 
 ---
 
@@ -112,7 +112,7 @@ Rule: include a disclaimer only when a real such document, made by a real profes
 
 ## 8. LLM-default scaffolding and chrome
 
-Artifacts and ornaments that exist only because a model made the document — structural chrome a real instance would not carry. (Pure word-choice, rhythm and punctuation tells — em-dashes, a ".." separator, "not just X, but Y" — are *style*, not metatext; they belong to humanise-text.)
+Artifacts and ornaments that exist only because a model made the document — structural chrome a real instance would not carry. (Pure word-choice, rhythm and punctuation tells — em-dashes, a ".." separator, "not just X, but Y" — are *style*, not metatext; they belong to orwell.)
 
 | Metatext | Fix |
 |---|---|
@@ -168,6 +168,29 @@ Pointing the reader around the document instead of just placing the content wher
 
 ---
 
+## 13. Interface copy: the machine talking
+
+A product's screens, emails and assistant text explain how they work instead of showing the subject or offering the next step. Real examples from one audit of a research product (466 rows across feeds, settings, pricing, enterprise pages and emails):
+
+| Metatext | Fix |
+|---|---|
+| Sign-ups card: "7 before · admin accounts left out" | "↑ 3 from 7". The exclusion is a counting rule; the reader needs the number. |
+| "Signed-in views carry the reader's account from the signed session cookie; the beacon never reads the database." | DELETE. Implementation, not information. |
+| "2,464 Papers read · 110 About aging · 14 Stories" at the top of a reader's feed | DELETE from the feed. The product describing its pipeline to the people it serves. |
+| "456 worth reading" (the internal cut-off); "bells" for follows; "ARN" for AgingResearch.News | The product's proper words: "456 shown", "follows", the full name. Internal shorthand never reaches the audience. |
+| "Papers you save appear here." | "Nothing saved yet." State the state; don't narrate the screen. |
+| "Read at 23:41 UTC. The numbers are shared for two minutes." on every section | One quiet "Updated 23:41" per page. |
+| "Migration pending: the subjects table…" | "No subjects yet." |
+| The founding price shown four times on one pricing screen | Once, where the decision is made. |
+| Every limit message ending "resets at 00:00 UTC" | "resets at midnight", in the reader's time, or "resets tomorrow". |
+| News summaries ending "…does not establish causation" | Fix the prompt that writes them (a new version), not each summary. |
+
+Keep: content, data, units, control labels, errors that say what happened, warnings before loss, consent and legally required text. A definition the reader genuinely needs moves into a collapsed "How this is counted"; it is not deleted.
+
+Tell: the line would only matter to someone who built, runs or audits the system.
+
+---
+
 ## The rewrite principle
 
-Trust the reader, and trust the sentence. If a point matters, state it. If a caveat matters, make it precise. **Do not explain the prose while writing it.** The worst drafts read less like an expert addressing the reader and more like a model answering a commissioning brief — remove everything that gives that away.
+Trust the reader, and trust the sentence. If a point matters, state it. If a caveat matters, make it precise. **Do not explain the prose while writing it.** The worst drafts read less like an expert addressing the reader and more like a model answering a commissioning brief, or a system describing itself. Remove everything that gives that away.

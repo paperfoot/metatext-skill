@@ -2,7 +2,7 @@
 
 **Make anything an AI writes read like a real document — not like an AI answering a prompt.**
 
-AI deliverables leak *metatext*: the output talks about itself, the request, the options it weighed, or the person who asked — instead of just being the thing. A report opens with an eyebrow label. An email arrives as three versions to "pick from." A contract invents a reference number. A function carries a comment addressed to you. None of it is what a competent professional would have handed over.
+AI deliverables leak *metatext*: any trace of the making that reaches the audience. The output talks about itself, the request, the options it weighed, the person who asked, or the system that produced it, instead of just being the thing. A report opens with an eyebrow label. An email arrives as three versions to "pick from." A contract invents a reference number. A function carries a comment addressed to you. A dashboard explains which accounts it left out. None of it is what a competent professional would have handed over.
 
 `metatext` is a skill for Claude Code and compatible agent harnesses that strips all of it — first by making the agent register the real job (what the artifact is, who it is for, what it is *for*), then by cutting every trace of the prompt-and-AI situation from the result.
 
@@ -35,7 +35,7 @@ Two moves:
 
 ## What's in here
 
-- **`SKILL.md`** — the procedure: the core test, the two layers (sentence- and artifact-level), the causal model, and an adversarial audit mode.
+- **`SKILL.md`** — the procedure: the core test, where metatext hides (sentences, the artifact's shape, interfaces), the causal model, product-copy rules, and an adversarial audit mode.
 - **`reference/taxonomy.md`** — the worked catalogue: every pattern with before/after fixes, used as an audit checklist.
 - **`reference/grounding.md`** — the published research behind the causal model (reward-model length bias, sycophancy, over-caution, ambiguity under-resolution, format and persona leakage), with citations.
 
